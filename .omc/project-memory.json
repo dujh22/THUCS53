@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782202284670,
+  "projectRoot": "/Users/djh/Documents/备份/一般/工作/代码/LLM/github/THUCS53",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "党": {
+      "path": "党",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1782202284652,
+      "keyFiles": [
+        "党口业务.md",
+        "党员义务.md",
+        "学习材料.md",
+        "支部发展情况.md",
+        "支部工作计划-26春.md"
+      ]
+    },
+    "公示": {
+      "path": "公示",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1782202284653,
+      "keyFiles": [
+        "2025年春季学期研究生德育工作助理考核表-杜晋华.docx",
+        "2025年秋述职稿.docx",
+        "2025秋：计研五三带班助理-杜晋华.pptx",
+        "2026年春季学期研究生德育工作助理考核表-杜晋华.docx",
+        "2026春：计研五三带班助理-杜晋华.pptx"
+      ]
+    },
+    "团": {
+      "path": "团",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1782202284656,
+      "keyFiles": [
+        "团口业务.md"
+      ]
+    },
+    "活动": {
+      "path": "活动",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1782202284657,
+      "keyFiles": [
+        "2606接待清华大学滨城行方案.docx",
+        "组织生活.md",
+        "说明.md"
+      ]
+    },
+    "班": {
+      "path": "班",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1782202284658,
+      "keyFiles": [
+        "班级业务.md",
+        "研工组周会信息公示.md",
+        "通知.md"
+      ]
+    },
+    "计划": {
+      "path": "计划",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782202284658,
+      "keyFiles": []
+    },
+    "评奖评优": {
+      "path": "评奖评优",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782202284658,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}

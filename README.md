@@ -1,8 +1,12 @@
-<h1 align="center">🎓 THUCS53</h1>
+<p align="center">
+  <img src="site/assets/images/thu53-mark.svg" width="84" height="84" alt="THUCS53 标识" />
+</p>
+
+<h1 align="center">THUCS53</h1>
 
 <p align="center"><strong>清华大学计算机系 · 计研五三支部官方仓库</strong></p>
 
-<p align="center">传承红色基因 ｜ 深化党建引领 ｜ 团结奋进 · 追求卓越</p>
+<p align="center">同心致远 ｜ 向新而行 ｜ 团结奋进 · 追求卓越</p>
 
 <p align="center">
   <a href="https://dujh22.github.io/THUCS53/">
@@ -10,6 +14,15 @@
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/班级荣誉-笃行班团%20·%20甲级班团%20·%20卓越班团-e8a317?style=for-the-badge" alt="班级荣誉" />
+</p>
+
+<p align="center">
+  <a href="党/README.md">党支部</a> ·
+  <a href="团/README.md">团支部</a> ·
+  <a href="班/README.md">班级事务</a> ·
+  <a href="活动/README.md">活动实践</a> ·
+  <a href="公示/README.md">工作公示</a> ·
+  <a href="工作交接/README.md">工作交接</a>
 </p>
 
 ---

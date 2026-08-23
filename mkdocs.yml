@@ -2,6 +2,9 @@
 site_name: THUCS53 · 清华大学计算机计研五三
 site_description: 清华大学计算机计研五三支部官方主页
 site_url: https://dujh22.github.io/THUCS53/
+repo_url: https://github.com/dujh22/THUCS53
+repo_name: dujh22/THUCS53
+copyright: Copyright &copy; 2024–2026 清华大学计算机系计研五三支部
 
 # 构建说明：内容源在仓库根目录，MkDocs 不允许 docs_dir 为配置文件父目录，
 # 因此先由 scripts/build-site.sh 将内容同步到 build/docs/ 再构建
@@ -16,14 +19,21 @@ not_in_nav: |
 theme:
   name: material
   language: zh
+  logo: assets/images/thu53-mark.svg
+  favicon: assets/images/thu53-mark.svg
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
     - navigation.expand
+    - navigation.footer
+    - navigation.tracking
     - search.highlight
     - search.share
+    - search.suggest
     - content.code.copy
+    - content.tooltips
   palette:
     - scheme: default
       primary: indigo
@@ -38,7 +48,19 @@ theme:
         icon: material/brightness-4
         name: 切换至浅色模式
   icon:
-    logo: material/school
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dujh22/THUCS53
+      name: THUCS53 on GitHub
 
 plugins:
   - search:
@@ -53,9 +75,15 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - footnotes
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       # 中文标题锚点与 GitHub 风格一致（如 #集体简介）
-      slugify: !!python/name:pymdownx.slugs.uslugify_cased
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
       permalink: true
 
 nav:
@@ -91,6 +119,8 @@ nav:
   - 公示:
       - 公示/index.md
       - 书记工作公示: 公示/书记工作公示.md
+      - 助理年度汇报: 公示/助理年度汇报/index.md
+      - 助理考核: 公示/助理考核/index.md
   - 工作交接:
       - 工作交接/index.md
       - 党支书常务: 工作交接/党支书常务.md
@@ -98,5 +128,6 @@ nav:
       - 特别说明: 工作交接/特别说明.md
   - 评奖评优:
       - 评奖评优/index.md
+      - 2025—2026 甲级团支部: 评奖评优/甲团-202605/index.md
   - 社工论文:
       - 社工论文/index.md

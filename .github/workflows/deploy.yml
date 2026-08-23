@@ -24,8 +24,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install MkDocs Material
-        run: pip install mkdocs-material
+      - name: Install site dependencies
+        run: pip install -r requirements.txt
 
       - name: Build site
         run: scripts/build-site.sh build

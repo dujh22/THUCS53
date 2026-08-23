@@ -1,8 +1,15 @@
+<h1 align="center">🎓 THUCS53</h1>
+
+<p align="center"><strong>清华大学计算机系 · 计研五三支部官方仓库</strong></p>
+
+<p align="center">传承红色基因 ｜ 深化党建引领 ｜ 团结奋进 · 追求卓越</p>
+
 <p align="center">
-  <strong>🎓 THUCS53</strong>
-</p>
-<p align="center">
-  清华大学计算机计研五三支部官方仓库
+  <a href="https://dujh22.github.io/THUCS53/">
+    <img src="https://img.shields.io/badge/🌐%20班级主页-dujh22.github.io%2FTHUCS53-4f46e5?style=for-the-badge" alt="🌐 班级主页" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/班级荣誉-笃行班团%20·%20甲级班团%20·%20卓越班团-e8a317?style=for-the-badge" alt="班级荣誉" />
 </p>
 
 ---
@@ -32,6 +39,8 @@
 在学术方面，计研五三班成员刻苦钻研，勇于探索，积极参与科研项目和学术交流，取得了显著的成绩。同时，班级还倡导社会责任感，鼓励成员投身于各类社会公益和志愿服务活动，为社会发展贡献青春力量。
 
 计研五三班将继续以团结奋进、积极向上的精神面貌，朝着建设更加优秀的集体而不断努力。通过我们的共同努力，计研五三班将为国家的繁荣和社会的进步培养更多优秀人才，书写新时代的青春篇章。
+
+> 🏆 **班级荣誉**：2024.9 — 2025.9，五三支部先后获评清华大学**"笃行班团""甲级班团""卓越班团"**，成为计算机系和我校研究生的样板支部。
 
 ---
 

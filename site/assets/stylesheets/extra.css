@@ -47,6 +47,11 @@ html { scroll-behavior: smooth; }
 [data-md-color-scheme="slate"] .md-main { --page-tint: #201823; }
 
 .md-content__inner { padding-bottom: 4rem; }
+
+/* 首页 Hero 紧贴顶部导航，消除 Material 为普通文档预留的顶部间距 */
+.md-main__inner:has(.hero) { margin-top: 0; }
+.md-content:has(.hero) .md-content__inner { padding-top: 0; }
+
 .md-typeset { font-size: .78rem; line-height: 1.82; }
 .md-typeset h1 { color: var(--md-default-fg-color); font-weight: 750; letter-spacing: -.035em; }
 .md-typeset h2 { margin-top: 2.4em; font-weight: 720; letter-spacing: -.02em; }

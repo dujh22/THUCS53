@@ -4,3 +4,6 @@
 # Claude Code / OMC 运行时目录
 .omc/
 .claude/settings.local.json
+
+# MkDocs 构建产物
+build/

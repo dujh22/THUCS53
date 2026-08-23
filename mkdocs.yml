@@ -1,0 +1,102 @@
+# MkDocs 配置：仓库根目录即文档源，构建产物输出到临时目录（见 CI 命令 -d 参数）
+site_name: THUCS53 · 清华大学计算机计研五三
+site_description: 清华大学计算机计研五三支部官方主页
+site_url: https://dujh22.github.io/THUCS53/
+
+# 构建说明：内容源在仓库根目录，MkDocs 不允许 docs_dir 为配置文件父目录，
+# 因此先由 scripts/build-site.sh 将内容同步到 build/docs/ 再构建
+docs_dir: build/docs
+site_dir: build/site
+
+# 不在导航中的文件仍会被构建，可通过链接访问
+not_in_nav: |
+  党/image/*
+  活动/image/*
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+  icon:
+    logo: material/school
+
+plugins:
+  - search:
+      # 中文分词：按单字切分 CJK，英文按词切分
+      separator: '[\s\-\.]+|(?<=[一-鿿])(?=[a-zA-Z0-9])|(?<=[a-zA-Z0-9])(?=[一-鿿])'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      # 中文标题锚点与 GitHub 风格一致（如 #集体简介）
+      slugify: !!python/name:pymdownx.slugs.uslugify_cased
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 党:
+      - 党/index.md
+      - 党口业务: 党/党口业务.md
+      - 党员义务: 党/党员义务.md
+      - 支部规章制度: 党/支部规章制度.md
+      - 学习材料: 党/学习材料.md
+      - 支部发展情况: 党/支部发展情况.md
+      - 支部工作计划（26春）: 党/支部工作计划-26春.md
+      - 毕业生党员: 党/毕业生党员.md
+  - 团:
+      - 团/index.md
+      - 团口业务: 团/团口业务.md
+  - 班:
+      - 班/index.md
+      - 通知: 班/通知.md
+      - 班级业务: 班/班级业务.md
+      - 研工组周会信息公示: 班/研工组周会信息公示.md
+      - 拟毕业情况: 班/拟毕业情况.md
+  - 活动:
+      - 活动/index.md
+      - 活动组织流程: 活动/说明.md
+      - 组织生活一览: 活动/组织生活.md
+      - 2026-02 党课: 活动/组织生活/2026-02党课.md
+      - 2026-03 党课: 活动/组织生活/2026-03党课.md
+      - 2026-04 志愿: 活动/组织生活/2026-04志愿.md
+      - 2026-05 党课: 活动/组织生活/2026-05党课.md
+      - 2026-06 台球: 活动/组织生活/2026-06台球.md
+      - 2026-06 天津实践: 活动/组织生活/2026-06天津实践.md
+  - 公示:
+      - 公示/index.md
+      - 书记工作公示: 公示/书记工作公示.md
+  - 工作交接:
+      - 工作交接/index.md
+      - 党支书常务: 工作交接/党支书常务.md
+      - 带班助理常务: 工作交接/带班助理常务.md
+      - 特别说明: 工作交接/特别说明.md
+  - 评奖评优:
+      - 评奖评优/index.md
+  - 社工论文:
+      - 社工论文/index.md

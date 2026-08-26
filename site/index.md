@@ -52,6 +52,8 @@ hide:
   </a>
 </div>
 
+<p class="portal-more">👥 查找同学？进入 <a href="班/班级成员/">班级成员通讯录</a></p>
+
 <p class="section-kicker">COLLECTIVE HONORS</p>
 
 ## 我们的足迹

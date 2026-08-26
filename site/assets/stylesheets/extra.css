@@ -117,6 +117,10 @@ html { scroll-behavior: smooth; }
 .portal-card h3 { margin: .85rem 0 .25rem; font-size: 1rem; }
 .portal-card p { margin: 0; color: var(--md-default-fg-color--light); font-size: .72rem; line-height: 1.65; }
 
+.portal-more { margin: -1.3rem 0 2rem; text-align: center; color: var(--md-default-fg-color--light); font-size: .8rem; }
+.portal-more a { font-weight: 700; color: var(--thu-purple); }
+.portal-more a:hover { color: var(--thu-violet); }
+
 .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; margin: 1rem 0 2rem; }
 .stat-card { padding: 1.2rem; border-radius: .9rem; background: var(--thu-purple); color: #fff; }
 .stat-card:nth-child(2) { background: #347f77; }

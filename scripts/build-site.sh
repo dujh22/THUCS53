@@ -9,7 +9,7 @@ ACTION="${1:-build}"
 rm -rf build
 mkdir -p build/docs
 
-for item in 党 团 班 活动 公示 工作交接 评奖评优 社工论文; do
+for item in 党 团 班 活动 计划 公示 工作交接 评奖评优 社工论文; do
   cp -R "$item" build/docs/
 done
 

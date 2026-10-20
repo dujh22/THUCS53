@@ -36,7 +36,7 @@ find build/docs -type d -not -path '*/image*' -not -path '*/assets*' | while rea
       echo
       ls "$dir" | while read -r f; do
         case "$f" in
-          *.docx|*.pptx|*.xlsx) echo "- [$f]($f)（下载）" ;;
+          *.docx|*.doc|*.wps|*.pptx|*.xlsx|*.pdf) echo "- [$f]($f)（下载）" ;;
           *) echo "- [$f]($f)" ;;
         esac
       done
